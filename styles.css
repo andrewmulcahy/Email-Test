@@ -1,0 +1,100 @@
+body {
+	font-family: arial;
+	background-color: darkgrey;}
+#content {
+	width: 50%;
+	margin: 10px auto 10px auto;
+	padding: 15px;
+	border: 2px solid;
+	background-color: rgb(255,255,255);}
+#headinfo{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;}
+#contact{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;}
+img.headshot{
+	border-radius: 50%}
+nav{
+	margin-left: auto;
+	margin-right: auto;}
+ul {
+	width: 75%;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	text-align: center;}
+li{
+	display: inline;
+	margin: 0px 5px;}
+a{
+	color: rgb(0,0,0);
+	text-decoration: none;}
+a.on{
+	color: blue;
+	text-decoration: none;}
+a.contact{
+	text-align: center;}
+a.pokerLink{
+	visibility: hidden;}
+a:hover:not(.on){
+	color: dimgrey;
+	text-decoration: underline;}
+table, th, td {
+	table-layout: auto;
+ 	border: 1px solid black;}
+ p{
+ 	border: 1px solid;
+ 	width: 740px;}
+ #formWrapper{
+ 	width: 50%;
+ 	border: solid black;
+ 	border-radius: 5px;
+ 	background-color: lightgrey;
+ 	margin-left: auto;
+ 	margin-right:auto;}
+ input[type=text], textarea{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	border: 1px solid #555;
+	display: block;
+	resize: vertical;}
+label{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;}
+button[type=submit], button[type=reset]{
+	width: 75%;
+	height: 30px;
+	background-color: rgb(76,175,80);
+	color: black;
+	border: 2px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	display: block;}
+button[type=submit]:hover, button[type=reset]:hover{
+	width: 75%;
+	height: 30px;
+	background-color: white;
+	border-color: rgb(76,175,80);
+	color: black;
+	border: 2px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition-duration: 0.1s}
+ input:focus{
+ 	border: 2px solid;}

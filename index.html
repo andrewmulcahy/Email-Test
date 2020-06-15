@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=en-us>
+	<head>
+		<title>CS 601 Form</title>
+		<meta charset="UTF-8">
+		<link href="styles.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+
+	<div id="content">
+		<div id="headinfo">
+			<h2>Contact Me</h2>
+		</div>
+
+		<div id="formWrapper">
+			<form name="CSForm" id="CSForm" action="email.php" method="post" enctype="text/plain">
+				<div id="firstRow">	
+					<br>
+						<label>First Name (required):</label>
+						<input type="text" name="firstName" id="firstName" placeholder="First Name" required autofocus>
+				</div>
+				<div id="secondRow">
+					<br>				
+						<label>Last Name (required):</label>
+						<input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+				</div>
+				<div id="thirdRow">	
+					<br>			
+						<label>E-mail (required):</label>
+						<input type="text" name="email" id="email" placeholder="E-mail" required>
+				</div>
+				<div id="comment">
+					<br>
+						<label>Comments</label>
+						<textarea name="comments" id="comments" placeholder="Comments"></textarea>
+				<div id="submitButton">
+						<button type="submit" id="submit" value="Submit">Submit</button>
+				</div>
+				<div id="submitButton">
+						<button type="reset" id="reset" value="reset">Reset</button>
+				</div>
+			</form>	
+		</div>	
+	</body>
+</html>
